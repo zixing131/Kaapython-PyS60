@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 0.00.0
+Version: 1.00.0
+Kaapython-Version-Max: 11
+Name: set_color
+Package: set_color

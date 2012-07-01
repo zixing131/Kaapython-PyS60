@@ -1,0 +1,53 @@
+# Strings from: ui.py
+# This is a very old file! Someday I will improve it. :)
+
+'%s in %s'                                                                                      : '%s icerigindeki %s'.decode('utf-8')
+'%s item(s)'                                                                                    : u''
+'(empty)'                                                                                       : '(bos)'.decode('utf-8')
+'(more options)'                                                                                : u'(daha fazla ayar)'
+'(no data)'                                                                                     : u'(veri yok)'
+'(no match)'                                                                                    : '(eslesmedi)'.decode('utf-8')
+'Add'                                                                                           : u'Ekle'
+'Already exists as a directory'                                                                 : u'Dizin zaten var'
+'Already exists. Overwrite?'                                                                    : 'Zaten var. Uzerine yaz©ls©n m©?'.decode('utf-8')
+'Already exists. Replace?'                                                                      : u'Zaten var. Yerine koyulsun mu?'
+'Cannot create folder'                                                                          : 'Dizin olusturulam©yor'.decode('utf-8')
+'Cannot delete'                                                                                 : u'Silenemiyor'
+'Cannot list directory'                                                                         : 'Dizin goruntulenemiyor'.decode('utf-8')
+'Cannot rename'                                                                                 : 'Yeniden adland©r©lam©yor'.decode('utf-8')
+'Change'                                                                                        : 'Degistir'.decode('utf-8')
+'Changes saved'                                                                                 : 'Degisiklikler kaydedildi'.decode('utf-8')
+'Create folder...'                                                                              : 'Dizin olustur...'.decode('utf-8')
+'Current setting: %s'                                                                           : 'Suanki ayar: %s'.decode('utf-8')
+'Delete'                                                                                        : u'Sil'
+'Delete %s?'                                                                                    : u'%s Sil?'
+'Drives'                                                                                        : 'Suruculer'.decode('utf-8')
+'Edit filter...'                                                                                : 'Suzgec duzenle...'.decode('utf-8')
+'Exit'                                                                                          : 'C©k©s'.decode('utf-8')
+'File browser'                                                                                  : 'Dosya yonetici'.decode('utf-8')
+'Filter'                                                                                        : 'Suzgec'.decode('utf-8')
+'Filter:'                                                                                       : 'Suzgec:'.decode('utf-8')
+'Free: %s'                                                                                      : 'Bos: %s'.decode('utf-8')
+'Green + %s'                                                                                    : 'Yesil + %s'.decode('utf-8')
+'Invalid name'                                                                                  : u'Bilimneyen isim'
+'Loading...'                                                                                    : 'Ac©l©yor...'.decode('utf-8')
+'Maximal value is %s'                                                                           : 'En buyuk deger %s'.decode('utf-8')
+'Messages'                                                                                      : u'Mesajlar'
+'Minimal value is %s'                                                                           : 'En kucuk deger %s'.decode('utf-8')
+'Name'                                                                                          : 'Isim'.decode('utf-8')
+'Name (%s):'                                                                                    : 'Isim (%s):'.decode('utf-8')
+'Name:'                                                                                         : 'Isim:'.decode('utf-8')
+'Nothing to delete'                                                                             : u'Silinecek nesne yok'
+'Off'                                                                                           : 'Kapal©'.decode('utf-8')
+'On'                                                                                            : 'Ac©k'.decode('utf-8')
+'Open'                                                                                          : 'Ac'.decode('utf-8')
+'Parent'                                                                                        : 'Ust dizin'.decode('utf-8')
+'Please wait...'                                                                                : 'Lutfen bekleyin...'.decode('utf-8')
+'Press a new shortkey (green key followed by a 0-9, * or # key) or close this window to cancel.': 'Yeni bir k©sayol tusuna bas©n (0-9,*,#) ya da bu pencereyi kapat©n'.decode('utf-8')
+'Recent files'                                                                                  : u'Son dosyalar'
+'Rename'                                                                                        : 'Yeniden adland©r'.decode('utf-8')
+'Save'                                                                                          : u'Kaydet'
+'Save changes?'                                                                                 : 'Degisiklikleri kaydet?'.decode('utf-8')
+'Save here...'                                                                                  : u'Buraya kaydet...'
+'Settings'                                                                                      : 'Secenekler'.decode('utf-8')
+'Show all'                                                                                      : 'Hepsini goster'.decode('utf-8')

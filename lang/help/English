@@ -1,0 +1,268 @@
+User's Guide
+
+$ Disclaimer
+
+Kaapython is distributed under the terms of the BSD License. See the [License] for detailed information.
+
+$ Introduction
+
+Kaapython is an in-phone Python IDE with IDLE-like features. It lets you edit, execute and debug your scripts directly on your phone. Kaapython features a multi-document interface which means that you can simultaneously work on many files and switch between them at any time. It can also be easily extended using plugins.
+
+$ Usage
+
+After starting, Kaapython welcomes you with an empty screen only displaying version information. This is Kaapython's desktop which will be visible when all other windows are closed. Pressing the right softkey (Exit) while the desktop is displayed, closes Kaapython. Otherwise, it closes the currently visible window.
+
+To start working, go to the [Options] menu or press the Select key which lets you load a file or create a new one quickly.
+
+You can also configure keyboard shortcuts to make you work even faster. See the [Shortcuts] chapter for details.
+
+$$ Options
+
+The options menu is always available under the left softkey. All options listed here are available in most Kaapython windows.
+
+* File menu - contains options needed to open an existing or create a new file. Open causes the [File Browser] to open to let you select a file to load.
+
+* Windows menu - lists all currently opened windows and lets you switch between them. This function an be accessed quickly by pressing the Green-Green shortcut (the Green key pressed twice). This menu is hidden if there are no windows open.
+
+* Python Shell - opens the [Python Shell] or brings it to front if it's already opened.
+
+* Run Script - opens a [File Browser] which lets you choose a script to execute. The standard input/output will be redirected to the [Python Shell] which will be opened first if needed. The script's namespace will be available in the shell after execution for post-mortem debugging. If the Ask for arguments option is enabled in [Settings], Kaapython will ask for script arguments before execution.
+
+* Tools menu - contains rather rarely used options like [Settings], [Plugins], this help or Orientation, which lets you switch Kaapython between portrait and landscape mode on 3rd edition devices.
+
+* Exit - closes Kaapython. Before closing you will be asked if you want to store the current session or close all opened documents. For more information about sessions, read the [Sessions] chapter. If you choose to close all files, you will be asked if you want to save changed ones first.
+
+$$ Text
+
+So called text windows are all windows displaying text, including this help window. They add some text specific functions to the [Options] menu.
+
+* Edit menu - contains functions used to search through the text including both basic Find and Find All function (searches for all instances of the given text) or Go to Line function.
+
+* Full Screen (Tools menu) - this option hides the top pane (where the icon and file name is displayed) which gives more space for the text. Selecting again shows the top pane again.
+
+A text window also assigns special functions to some keys.
+
+* Select - inserts a new-line, same as Enter if you have a full keyboard.
+* Green-Up/Down - moves one page up/down (see the [Text group] of the [Settings] dialog for additional information on how to make this function work properly).
+* Green-Left/Right - moves to the start/end of a line.
+
+$$ Editor
+
+Opening a text file or creating a new one will open the text editor window. This window is built on top of the [Text] window and provides all its capabilities.
+
+The File menu in the [Options] menu contains additionaly.
+
+* Save, Save As - save the file using either the current file name or a new one (first use of Save works same as Save As)
+* Close - closes the current file. If there are unsaved changes, Kaapython will ask if you want to save them before closing.
+* Save All, Close All - save as Save and Close but works on all currently opened files.
+
+$$ Python editor
+
+Python editor window is shown after opening a *.py file or creating a new such file. It is based on the [Editor] window and provides all its features. Additionaly it makes editing a Python code on the phone a bit easier.
+
+A smart auto-indentation feature is available with a configurable indentation size (see the [Python group] of the [Settings] dialog).
+
+The Green-Select key shortcut triggers the [Autocomplete] feature which lets you type much faster.
+
+A [Call Tip] function is added to the Edit menu.
+
+Another function added to the Edit menu is a [Code Browser]. It will let you easily browse through all classes and functions defined by your file.
+
+Once you get your code done and you want to test it, use the Run option from the options menu. Note that this function does not save the file. If you have made changes since last save, it will save the file temporarily to the D: drive and run it from there.
+
+$$ Python Shell
+
+Python Shell window is opened using the Python Shell option in [Options] menu. It is based on the [Text] window and provides all its capabilities.
+
+Python Shell is an interactive Python console replacing (together with the [Run Script] option) the functionality of the default Python Shell distributed with PyS60. It also adds many useful features and doesn't have some of the bugs of the default shell.
+
+The shell features a true, IDLE-like commands history. Multiline commands like loops, classes or functions are also supported. To browse the history you can use the History function in the Options menu or Green-Up/Down key shortcuts. You can also scroll back and click on any line to copy it to the prompt.
+
+A smart auto-indentation feature is available. The indentation size can be configured in the [Python group] of the [Settings] dialog.
+
+The Green-Select key shortcut triggers the [Autocomplete] feature which lets you type much faster.
+
+A [Call Tip] function is added to the Edit menu.
+
+You can clear the buffer at any time using the Clear option from the Edit menu.
+
+The File menu contains an option to Export the buffer to a file after selecting it in a [File Browser].
+
+The commands history by default contains a command to start a Bluetoth console.
+
+$$ Settings
+
+The settings dialog is opened by selecting Settings from the Tools menu (see the [Options] menu). It lets you customize Kaapython to your needs. Settings dialog is divided into several groups.
+
+$$$ Main group
+
+This group contains global Kaapython options.
+
+* Language - Kaapython's user interface language. Application restart is required after changing.
+
+* Global shortcuts - global keyboard [Shortcuts]. Shortcuts defined here apply to all Kaapython windows including the desktop.
+
+$$$ Text group
+
+This group contains options for every Kaapython window which displays text, including [Editor], [Python editor] and [Python Shell].
+
+* Font name - name of the font.
+
+* Font size - size of the font. Has no effect on 2nd edition devices.
+
+* Font anti-aliasing - enables or disables font anti-aliasing. Has no effect on 2nd edition devices.
+
+* Font bold - selects a bold font.
+
+* Font color - color of the text.
+
+* Page size (full screen) - number of text lines on a screen when in full screen mode (portrait, full screen on). This setting is used by the page-up/down functionality (see the [Editor] chapter).
+
+* Page size (portrait) - number of text lines on a screen when in portrait mode (full screen off).
+
+* Page size (landscape) - number of text lines on a screen when in landscape mode.
+
+* Text shortcuts - text keyboard [Shortcuts]. These shortcuts are added to the text windows on top of the global shortcuts defined in the [Main group].
+
+$$$ File group
+
+This group contains options for Kaapython windows which are used to edit files, including [Editor] and [Python editor].
+
+* Default encoding - new files are saved using this encoding.
+
+* Autosave - if not set to "Off", causes the files to be automatically saved in given time intervals. Doesn't apply to new files which were not manually saved yet.
+
+* Text file shortcuts - file editor keybord [Shortcuts]. These shortcuts are added to the editor window on top of the shortcuts defined in the [Text group].
+
+$$$ Python group
+
+This group contains all Python specific options.
+
+* Ask for arguments - if enabled, Kaapython will ask for arguments every time a script is run.
+
+* Shell font color - color of text in [Python Shell]. This overrides the Font color setting in the [Text group].
+
+* Indentation size - number of space chars inserted by the auto-indentation feature.
+
+* Python file shortcuts - [Python editor] keyboard [Shortcuts]. These shortcuts are added to the Python editor window on top of the shortcuts defined in the [File group].
+
+* Python shell shortcuts - [Python Shell] keyboard [Shortcuts]. These shortcuts are added to the Python Shell window on top of the shortcuts defined in the [Text group].
+
+$$$ Plugins group
+
+This group is normally hidden. It is shown if plugins add some options to it. Refer to plugins help files for more information. Read the [Plugins] section to learn more about plugins.
+
+$$ Plugins
+
+Kaapython can be extended using special Kaapython plugins. The plugins manager opened using the Plugins option in the Tools menu is used to install or remove plugins. It also shows you what plugins are currently installed and running and allows you to display their Help files (select Help from the options menu).
+
+$$$ Installation
+
+Kaapython does not take care of downloading of plugins. You have to get the plugin file by whatever means are available and transfer the file to your phone. A plugin file is simply a zip file containing the plugin code (Python) and associated files.
+
+If you already have the plugin file on the phone, select Install from the options menu of the plugins manager and choose the plugin file using the [File browser]. Follow the on-screen instructions to finish the installation.
+
+A restart of Kaapython is needed for the plugin to start working.
+
+$$$ Uninstallation
+
+To uninstall a plugin, go to the plugins manager (see [Plugins]), select a plugin to remove and press C or select Uninstall from the options menu. Follow the on-screen instructions to remove the plugin.
+
+A restart of Kaapython is needed for the plugin to stop working.
+
+$$ Sessions
+
+Kaapython features a sessions mechanism which lets you restore all document windows after closing and reopening the application. The session is saved in four cases.
+
+* Before script execution - if the script crashes and takes Kaapython with it, you will be able to continue your work right where you stopped after restarting Kaapython.
+* On Red key press - if you press the Red key on 3rd edition device, it will force Python (including Kaapython) to close. Before it happens, Kaapython will store the current session.
+* When Exit is selected - if you select the Exit option from [Options] menu, you will be asked if you want to store the session. Doing so will let you continue your work later.
+* When phone runs low on memory - Symbian OS can close an application running in the background if it needs memory. If Kaapython is closed this way, the session is stored before it happens.
+
+If the session is stored and Kaapython is started, a question dialog is displayed asking if the session should be reloaded. Note that no matter if the session is loaded or not, it is deleted. In other words, Kaapython will ask only once.
+
+$$ Shortcuts
+
+Kaapython features a fully customizable keyboard shortcuts. All shortcuts always consist of two key presses with the first one being the Green key.
+
+In the [Settings] you will find five different sets of keyboard shortcuts you can configure.
+
+* Global shortcuts in the [Main group].
+* Text shortcuts in the [Text group].
+* File shortcuts in the [File group].
+* Python file shortcuts in the [Python group].
+* Python shell shortcuts in the [Python group].
+
+Only a handful of options can be assigned to the Global shortcuts. However, these shortcuts work throughout the application.
+
+All windows displaying text, like the [Editor], [Python editor], [Python Shell] or this help provide text manipulation functions which can be configured in Text shortcuts.
+
+All windows loading and saving files like [Editor] or [Python editor] provide files manipulation functions which can be configured in the File shortcuts.
+
+[Python editor] windows provide Python specific functions which can be configured in the Python file shortcuts.
+
+[Python Shell] window provide Python shell specific functions which can be configured in the Python shell shortcuts.
+
+The shortcuts configuration dialog features a list of currently set shortcuts with Add and Delete options in the menu. Selecting Add opens a menu with keys which you can configure. If you have a full QWERTY keyboard or an external one, you may select Custom to be able to choose any key producing a char. After that simply choose the action you want to assign to this key.
+
+$$ Code Browser
+
+The Code Browser is available in the Edit menu in [Python editor] window. It parses the Python source you're currently working on and lets you browse the classes, methods and functions. Selecting an item jumps to the definition in the code. The Code Browser helps you a lot if you're editing large files.
+
+After opening you will be presented with a list of global classes and functions defined in your source. If an item ends with "->", you can press the Right button or select Browse from the menu to see objects defined in this object. To go back, press Left or select Back from the menu.
+
+Click on an object to select it and see the code defining it.
+
+You can also use the star key (*) to filter the list. Pressing it brings up a dialog where a pattern can be entered. Accepting the dialog hides all items which did not contain the entered text in their names.
+
+$$ Autocomplete
+
+Autocomplete lets you write your code much faster by completing the names of attributes and functions for you. You can access it by pressing the Green-Select shortcut. Once started, the expression left to the cursor is used to build a list of items that match it and could be inserted at the cursor position. Choosing one closes the items list and inserts the selected into the code.
+
+You can start the autocomplete after entering first few chars of a function name. The list will contain only functions with names starting with the entered chars. If you enter a name of an object followed by a dot ("."), the list will contain all attributes of this object.
+
+Note that this feature works best in the [Python Shell] because of its interactivity. In the [Python editor], the namespace of last execution is used to build the autocompletion lists.
+
+$$ Call Tip
+
+Call Tip displays information about the arguments syntax of a function. You have to put the cursor inside the arguments parenthesis before calling this function. The information is based on the docstrings and introspection of function objects.
+
+Note that introspection works only with pure Python functions and since most of the built-in PyS60 functions are written in C and have the docstrings removed to save memory, no information is available for them.
+
+Call Tip is available in the Edit menu of [Python Shell] and [Python editor].
+
+$$ File Browser
+
+Whenever there is a need to select a file throughout Kaapython, the same file browser is used. This file browser provides many usefull features making working with files using Kaapython an easy task.
+
+The main file browser screen contains a list of drives available on the phone along with a shortcut to recently opened/saved files and some standard directories like C:\Python or E:\Python.
+
+To enter a drive or directory, the Right button or Open menu option can be used. Alternatively you can use the Select button.
+
+To go one level up, use the Left button or Parent menu option.
+
+To select a file, use the Select button.
+
+The hash key (#) can be used to go directly to the main screen (drives).
+
+The star key (*) is a filter key. Pressing it brings up a dialog where a pattern can be entered. Accepting the dialog hides all items which did not contain the entered text in their names.
+
+The 0 key displays additional information about selected item, like size or last modification date.
+
+The C key deletes the selected item.
+
+The Options menu of the file browser lets you also create new directories or rename existing items.
+
+$ License
+
+Copyright (c) 2007-2008, Arkadiusz Wahlig
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    * Neither the name of Arkadiusz Wahlig nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

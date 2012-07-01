@@ -1,0 +1,8 @@
+Плагин позволяет отправить текст из текущего редактируемого буфера (окна) на email в виде текста электронного письма.
+Текст передаётся в html-тегах <pre></pre>, поэтому форматирование кода не пострадает.
+
+Copyright (c) 2011, Virtuos86
+<virtuos86@yandex.ru>
+Идея Zaterehniy
+
+Distributed under the new BSD license.

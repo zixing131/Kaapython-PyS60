@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 0.00.0
+Version: 1.00.1
+Kaapython-Version-Max: 11
+Name: Comments
+Package: comments

@@ -1,0 +1,6 @@
+Добавляет возможность закомментировать/раскомментировать строку Python кода. Для его использования, назначьте функцию "Comment Line" на шорткат, используя диалог Установок.
+
+Copyright (c) 2008, Arkadiusz Wahlig
+<arkadiusz.wahlig@gmail.com>
+
+Distributed under the new BSD license.

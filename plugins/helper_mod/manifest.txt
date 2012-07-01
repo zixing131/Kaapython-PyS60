@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 10
+Version: 1.0.0
+Kaapython-Version-Max: 11
+Name: Helper mod
+Package: helper_mod

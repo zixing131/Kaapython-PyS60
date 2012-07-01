@@ -1,0 +1,11 @@
+Автор: Zaterehniy
+Версия: 1.0
+Оф.сайт : zaterehniy.ucoz.ru
+
+Простенький плагин для редактора скриптов. При запуске плагина откроется файловый менеджер, выбираем любой файл и плагин вернет путь по которому лежит файл ,вставляя его в поле с кодом(иногда нехватало такой функции. Пример: graphic.Image.open("E:\to_file.py"))
+
+
+Copyright (c) 2011, Zaterehniy
+<zaterehniy.ucoz.ru>
+
+Distributed under the new BSD license.

@@ -1,0 +1,142 @@
+# Strings from: ped.py
+# This is a very old file! Someday I will improve it. :)
+
+'%d min'                                                              : u'%d dak.'
+'%d sec'                                                              : u'%d san.'
+'%s %s installed'                                                     : u'%s %s kuruldu'
+'%s %s uninstalled'                                                   : u'%s %s kaldcrcldc'
+'%s field missing from manifest'                                      : u''
+'%s is busy'                                                          : '%s mesgul'.decode('utf-8')
+'%s plugin requires Ped in at least version %s. Your is %s. Skipping.': "%s eklenti Ped'in %s surumunde calcscr. Suanki surum %s. Geciliyor".decode('utf-8')
+'%s plugin supports Ped up to version %s. Your is %s. Run?'           : '%s eklenti Ped\'in %s surumunde calcscr. Suanki surum %s. Calcstcr?'.decode('utf-8')
+'(more options)'                                                      : u'(daha fazla ayar)'
+'(no data)'                                                           : u'(veri yok)'
+'(no match)'                                                          : '(eslesmedi)'.decode('utf-8')
+'(no plugins)'                                                        : u'(eklenti yok)'
+'(no shortcuts)'                                                      : '(kcsayol yok)'.decode('utf-8')
+'(none)'                                                              : u'(yok)'
+'Arguments'                                                           : 'Degiskenler'.decode('utf-8')
+'Arguments:'                                                          : 'Degiskenler:'.decode('utf-8')
+'Ask for arguments'                                                   : 'Degisken icin sor'.decode('utf-8')
+'Autocomplete'                                                        : u'Otomatik tamamla'
+'Autosave'                                                            : u'Otomatik kaydet'
+'Back'                                                                : u'Geri'
+'Black'                                                               : u'Siyah'
+'Blue'                                                                : u'Mavi'
+'Bottom'                                                              : u'Son'
+'Browse'                                                              : 'Gozat'.decode('utf-8')
+'Call Tip'                                                            : 'Kod bicimi'.decode('utf-8')
+'Cannot export the output'                                            : 'Ccktc aktarclamcyor'.decode('utf-8')
+'Cannot load %s file'                                                 : '%s dosyasc acclamcyor'.decode('utf-8')
+'Cannot load help file'                                               : 'Yardcm dosyasc acclamcyor'.decode('utf-8')
+'Cannot save file'                                                    : u'Dosya kaydedilemiyor'
+'Cannot update session file'                                          : 'Oturum dosyasc guncellenemiyor'.decode('utf-8')
+'Changes'                                                             : 'Degisiklckler'.decode('utf-8')
+'Choose key'                                                          : 'Tusu secin'.decode('utf-8')
+'Clear'                                                               : u'Temizle'
+'Clear the buffer?'                                                   : 'Onbellegi temizle?'.decode('utf-8')
+'Close'                                                               : u'Kapat'
+'Close All'                                                           : u'Hepsini kapat'
+'Close all files'                                                     : u'Hepsini kapat (ve kaydet)'
+'Code Browser'                                                        : u'Kod listeleyici'
+'Custom...'                                                           : 'Ozel'.decode('utf-8')
+'Default encoding'                                                    : 'Ontancmlc kodlama'.decode('utf-8')
+'Discard'                                                             : 'Vazgec'.decode('utf-8')
+'Edit'                                                                : 'Duzen'.decode('utf-8')
+'Edit Menu'                                                           : 'Duzen menusu'.decode('utf-8')
+'Edit...'                                                             : 'Duzenle...'
+'Enter one key only'                                                  : 'Sadece bir tusa bascn'.decode('utf-8')
+'Exit'                                                                : 'Cckcs'.decode('utf-8')
+'Export To...'                                                        : u'Aktar...'
+'Export to'                                                           : u'Aktar'
+'File'                                                                : u'Dosya'
+'File Menu'                                                           : 'Dosya menusu'.decode('utf-8')
+'File browser already in use'                                         : 'Dosya yoneticisi kullancmda'.decode('utf-8')
+'File saved'                                                          : u'Dosya kaydedildi'
+'Find All'                                                            : u'Hepsini bul'
+'Find All...'                                                         : 'Hepsini bul...'
+'Find All:'                                                           : u'Hepsini bul:'
+'Find Next'                                                           : u'Sonrakini bul'
+'Find...'                                                             : u'Bul...'
+'Find:'                                                               : u'Bul:'
+'Find: %s'                                                            : u'Bul: %s'
+'Font anti-aliasing'                                                  : 'Yazc kenar duzeltmesi'.decode('utf-8')
+'Font bold'                                                           : 'Kalcn yazc'.decode('utf-8')
+'Font color'                                                          : 'Yazc rengi'.decode('utf-8')
+'Font name'                                                           : 'Yazctipi adc'.decode('utf-8')
+'Font size'                                                           : 'Yazctipi boyutu'.decode('utf-8')
+'Full Screen'                                                         : u'Tam ekran'
+'Global shortcuts'                                                    : 'Genel kcsayollar'.decode('utf-8')
+'Go to Line...'                                                       : 'Satcra git...'.decode('utf-8')
+'Green'                                                               : 'Yesil'.decode('utf-8')
+'Green-%s'                                                            : 'Yesil-%s'.decode('utf-8')
+'Help'                                                                : 'Yardcm'.decode('utf-8')
+'Help for %s'                                                         : '%s icin yardcm'.decode('utf-8')
+'History'                                                             : 'Gecmis'.decode('utf-8')
+'Indentation size'                                                    : 'Tancmlama boslugu(tab)'.decode('utf-8')
+'Install\n%s %s?'                                                     : u'Kur\n %s %s'
+'Install plugin'                                                      : u'Eklenti kur'
+'Install...'                                                          : u'Kur...'
+'Installed. Restart Ped to run.'                                      : 'Kuruldu. Ped\'i yeniden baslat'.decode('utf-8')
+'Kill unresponding window by closing Ped?'                            : 'Cevap vermeyen pencereyi Ped\'i kapatarak oldur'.decode('utf-8')
+'Language'                                                            : u'Dil'
+'Last: %s'                                                            : u'Son: %s'
+'Line %d, Column %d'                                                  : 'Satcr %d, Sutun %d'.decode('utf-8')
+'Line (1-%d):'                                                        : 'Satcr (1-%d):'.decode('utf-8')
+'Main'                                                                : 'Ana menu'.decode('utf-8')
+'New'                                                                 : u'Yeni'
+'New %s'                                                              : u'Yeni: %s'
+'No additional info for "%s"'                                         : '%s icin eklenebilecek bilgi yok'.decode('utf-8')
+'No arguments'                                                        : 'Degisken yok'.decode('utf-8')
+'Not a plugin file'                                                   : 'Eklenti degil'.decode('utf-8')
+'Not available'                                                       : 'Mevcut degil'.decode('utf-8')
+'Not found'                                                           : 'Bulunamadc'.decode('utf-8')
+'Not found, start from beginning?'                                    : 'Bulunamadc. Bastan aranscn mc?'.decode('utf-8')
+'Off'                                                                 : 'Kapalc'.decode('utf-8')
+'Open file'                                                           : 'Dosya ac'.decode('utf-8')
+'Open...'                                                             : 'Ac...'.decode('utf-8')
+'Options'                                                             : u'Ayarlar'
+'Orientation'                                                         : 'Yonlendirme'.decode('utf-8')
+'Page size (full screen)'                                             : 'Sayfa buyuklugu (tamekran)'.decode('utf-8')
+'Page size (landscape)'                                               : 'Sayfa buyuklugu(orta)'.decode('utf-8')
+'Page size (portrait)'                                                : 'Sayfa buyuklugu (kucuk)'.decode('utf-8')
+'Please wait...'                                                      : 'Lutfen bekleyin...'.decode('utf-8')
+'Plugins'                                                             : u'Eklentiler'
+'Purple'                                                              : u'Mor'
+'Put cursor inside argument parenthesis'                              : 'Imleci degiskenin icine goturun'.decode('utf-8')
+'Python'                                                              : u'Python'
+'Python Shell'                                                        : 'Python kabugu'.decode('utf-8')
+'Python file shortcuts'                                               : 'Python dosya kcsayollarc'.decode('utf-8')
+'Python shell shortcuts'                                              : 'Python betigi kcsayollarc'.decode('utf-8')
+'Red'                                                                 : 'Kcrmczc'.decode('utf-8')
+'Replace version %s with %s?'                                         : '%s ile %s surumunu degistirilsin mi?'.decode('utf-8')
+'Requires Ped in at least version %s. Your is %s.'                    : 'Ped\'in %s surumu lazcm. Suanki surum %s'.decode('utf-8')
+'Restart Ped for the changes to take effect'                          : 'Degisiklikleri uygulamak icin Ped\'i yeniden baslat'.decode('utf-8')
+'Restore previous session?'                                           : 'Onceki oturumu ac'.decode('utf-8')
+'Run'                                                                 : 'Calcstcr'.decode('utf-8')
+'Run Script...'                                                       : 'Betik baslat...'.decode('utf-8')
+'Run script'                                                          : 'Betik baslat'.decode('utf-8')
+'Running.'                                                            : 'Calcstcrclcyor'.decode('utf-8')
+'Save'                                                                : u'Kaydet'
+'Save All'                                                            : u'Hepsini kaydet'
+'Save As...'                                                          : 'Farklc kaydet...'.decode('utf-8')
+'Save file'                                                           : u'Dosya kaydet'
+'Select'                                                              : 'Sec'.decode('utf-8')
+'Settings'                                                            : u'Ayarlar'
+'Shell font color'                                                    : 'Kabuk yazc rengi'.decode('utf-8')
+'Starting "%s" plugin failed, skipping'                               : '%s eklentisi baslatclamadc. Geciliyor'.decode('utf-8')
+'Store the session'                                                   : 'Oturumu kaydet'.decode('utf-8')
+'Supports Ped up to version %s. Your is %s. Continue?'                : 'Ust surum %s destekleniyor. Suanki surum %s. Devam edilsin mi?'
+'Text'                                                                : u'Metin'
+'Text file shortcuts'                                                 : 'Metin dosyasc kcsayolu'.decode('utf-8')
+'Text shortcuts'                                                      : 'Metin kcsayolu'.decode('utf-8')
+'Tools'                                                               : 'Araclar'.decode('utf-8')
+'Top'                                                                 : 'Bas'.decode('utf-8')
+'Topic List'                                                          : u'Konu listesi'
+'Uninstall'                                                           : 'Kaldcr'.decode('utf-8')
+'Uninstall\n%s %s?'                                                   : 'Kaldcr\n%s %s?'.decode('utf-8')
+'Uninstalled. Restart to stop.'                                       : 'Kaldcrcldc. Durdurmak icin yeniden baslatcn.'.decode('utf-8')
+'Unknown callable "%s"'                                               : '%s cagrclabiliq degil'.decode('utf-8')
+'Version: %s'                                                         : 'Surum:'.decode('utf-8')
+'Version: %s\nPython for S60: %s\n'                                   : 'Surum: %s\nS60 icin Python: %s\n'.decode('utf-8')
+'Windows'                                                             : u'Pencereler'

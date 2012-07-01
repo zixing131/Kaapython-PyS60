@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 0.00.0
+Version: 0.02.0
+Kaapython-Version-Max: 11
+Name: Graphical Bar
+Package: gbar

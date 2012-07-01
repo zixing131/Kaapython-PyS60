@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 10
+Version: 0.02.0
+Kaapython-Version-Max: 11
+Name: Helper by dimy44
+Package: helper

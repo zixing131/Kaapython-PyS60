@@ -1,0 +1,5 @@
+Kaapython-Version-Min: 10
+Version: 0.01.1
+Kaapython-Version-Max: 11
+Name: main_buffer by dimy44
+Package: main_buffer
